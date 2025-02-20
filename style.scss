@@ -1,0 +1,141 @@
+$primary: #28e86e;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+header {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./images/podklad.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  .navbar {
+    background-color: #2e7e43;
+    .brand {
+      font-size: 2rem;
+      color: black;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+      transition: border 0.2s;
+      border-bottom: 1px solid #f3efef;
+      margin-bottom: -1px;
+    }
+  }
+  .header-banner {
+    min-height: 100vh;
+    .btn {
+      font-size: 1.5rem;
+      border-radius: 2rem;
+    }
+  }
+  .header-content {
+    z-index: 2;
+  }
+}
+.login {
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: #3d5e3d;
+}
+.my-img {
+  height: 450px;
+}
+.fond-1 {
+  font-family: "Edu AU VIC WA NT Hand";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.fond-2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.karty img {
+  height: 180px;
+  width: 18rem;
+  padding: 5px;
+}
+main {
+  background-color: #2a5538;
+}
+main header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel {
+  max-width: 800px; /* Nastavení maximální šířky */
+  margin: 0 auto; /* Vycentrování */
+}
+.carousel-item img {
+  height: 300px; /* Nastavení výšky obrázků */
+  object-fit: cover; /* Zajištění přizpůsobení obrázků */
+}
+
+.carousel-txt {
+  background-color: rgb(47, 92, 60);
+  opacity: 50%;
+}
+.carousel-item img {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+}
+h2,
+h3 {
+  text-align: center;
+}
+.font-1 {
+  font-family: "Roboto", sans-serif;
+}
+.font-2 {
+  font-family: "Oswald", sans-serif;
+}
+.font-3 {
+  font-family: "Lobster", cursive;
+}
+.title {
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}
+
+.testimonial-section {
+  padding: 50px 0;
+}
+.card {
+  margin-bottom: 30px;
+}
+.contact-section {
+  background-color: #586958;
+  padding: 50px 0;
+}
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer {
+  background-color: #6d876d;
+}
